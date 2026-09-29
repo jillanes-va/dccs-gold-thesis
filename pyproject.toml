@@ -3,14 +3,31 @@ name = "dccs-gold-thesis"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+
+# 1. Acota Python para que uv no busque ruedas para Python 3.14
+requires-python = ">=3.11,<3.13"
+
 dependencies = [
+    "accelerate>=1.15.0",
     "akshare>=1.18.94",
+    "datasets>=5.0.1",
     "ipykernel>=7.3.0",
     "matplotlib>=3.11.1",
     "numpy>=2.4.6",
     "pandas>=3.0.5",
     "pandas-datareader>=0.11.1",
+    "scikit-learn>=1.9.1",
     "statsmodels>=0.15.0",
+    # 2. Corrige el rango de PyTorch a una versión existente (>=2.4.0 o >=2.5.0)
+    "torch>=2.4.0",
+    "transformers>=5.17.0",
     "yfinance>=1.7.0",
 ]
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu124" }
