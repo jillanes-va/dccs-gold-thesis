@@ -1,0 +1,11 @@
+﻿platform,discovery_url,url,http_status,result,published_at,title,author,publisher,language,word_count,text,error
+yahoo,https://es.finance.yahoo.com/sitemap/2026_01_15/,https://es.finance.yahoo.com/sitemap/2026_01_15/,,discovery_robots_disallowed_or_unavailable,,,,,,,,
+yahoo,https://es.finance.yahoo.com/sitemap/2026_04_15/,https://es.finance.yahoo.com/sitemap/2026_04_15/,,discovery_robots_disallowed_or_unavailable,,,,,,,,
+yahoo,https://es.finance.yahoo.com/sitemap/2026_07_15/,https://es.finance.yahoo.com/sitemap/2026_07_15/,,discovery_robots_disallowed_or_unavailable,,,,,,,,
+yahoo,https://es.finance.yahoo.com/sitemap/2026_10_14/,https://es.finance.yahoo.com/sitemap/2026_10_14/,,discovery_robots_disallowed_or_unavailable,,,,,,,,
+reuters,https://www.reuters.com/business/,https://www.reuters.com/business/,,discovery_robots_disallowed_or_unavailable,,,,,,,,
+reuters,https://www.reuters.com/markets/,https://www.reuters.com/markets/,,discovery_robots_disallowed_or_unavailable,,,,,,,,
+benzinga,https://www.benzinga.com/news,https://www.benzinga.com/news,,discovery_robots_disallowed_or_unavailable,,,,,,,,
+benzinga,https://www.benzinga.com/markets,https://www.benzinga.com/markets,,discovery_robots_disallowed_or_unavailable,,,,,,,,
+bloomberg,https://www.bloomberg.com/markets,https://www.bloomberg.com/markets,,discovery_robots_disallowed_or_unavailable,,,,,,,,
+bloomberg,https://www.bloomberg.com/economics,https://www.bloomberg.com/economics,,discovery_robots_disallowed_or_unavailable,,,,,,,,

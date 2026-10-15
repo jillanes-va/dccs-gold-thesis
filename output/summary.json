@@ -1,0 +1,14 @@
+{
+  "yahoo": {
+    "discovery_robots_disallowed_or_unavailable": 4
+  },
+  "reuters": {
+    "discovery_robots_disallowed_or_unavailable": 2
+  },
+  "benzinga": {
+    "discovery_robots_disallowed_or_unavailable": 2
+  },
+  "bloomberg": {
+    "discovery_robots_disallowed_or_unavailable": 2
+  }
+}
