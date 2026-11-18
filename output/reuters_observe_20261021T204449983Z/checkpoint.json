@@ -1,0 +1,43 @@
+{
+  "configuration": {
+    "schema_version": "1.1",
+    "code_sha256": "0bfbd0f39c66130d06c242bc3d85ba132582c9abafdf2057dfe468a6c356c799",
+    "start": "2026-01-01",
+    "end": "2026-10-15",
+    "min_words": 100,
+    "robots_policy": "observe",
+    "inputs": [
+      {
+        "kind": "discovery",
+        "url": "https://www.reuters.com/business/",
+        "discovered_from": "seed",
+        "done": false
+      },
+      {
+        "kind": "discovery",
+        "url": "https://www.reuters.com/markets/",
+        "discovered_from": "seed",
+        "done": false
+      }
+    ]
+  },
+  "items": [
+    {
+      "kind": "discovery",
+      "url": "https://www.reuters.com/business/",
+      "discovered_from": "seed",
+      "done": false,
+      "retry_at": null,
+      "last_result": "authentication_required"
+    },
+    {
+      "kind": "discovery",
+      "url": "https://www.reuters.com/markets/",
+      "discovered_from": "seed",
+      "done": false,
+      "retry_at": null,
+      "last_result": "authentication_required"
+    }
+  ],
+  "cooldowns": {}
+}

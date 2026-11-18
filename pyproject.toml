@@ -27,8 +27,13 @@ dependencies = [
     "requests>=2.32",
     "beautifulsoup4>=4.12",
     "trafilatura>=2.0",
-    "python-dateutil>=2.9"
+    "python-dateutil>=2.9",
+    "pyarrow>=25.0.1",
+]
 
+[project.optional-dependencies]
+browser = [
+    "playwright>=1.64.0",
 ]
 
 [[tool.uv.index]]

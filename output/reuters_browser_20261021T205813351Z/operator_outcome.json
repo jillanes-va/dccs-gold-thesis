@@ -1,0 +1,14 @@
+﻿{
+    "recorded_at_utc":  "2026-10-21T21:01:04.8824631Z",
+    "status":  "interrupted_after_persistent_challenge",
+    "operator_report":  "La verificación o el bloqueo persiste",
+    "documents_stored":  0,
+    "application_summary_present":  false,
+    "browser_resource_request_count":  null,
+    "evidence_log":  "C:\\Users\\Dccs2\\Desktop\\proyecto_local\\DCCS-Gold-Thesis\\output\\reuters_browser_20261021T205813351Z\\runs\\20261021T205815_1ea7ab15\\http.jsonl",
+    "observed_main_document_http_statuses":  [
+                                                 401,
+                                                 401
+                                             ],
+    "note":  "Anotación externa a la aplicación; no reemplaza un manifiesto o resumen de ejecución."
+}

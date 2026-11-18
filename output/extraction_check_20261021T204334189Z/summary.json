@@ -1,0 +1,15 @@
+{
+  "run_id": "20261021T204335_d1bf17aa",
+  "attempts_this_run": {
+    "robots_disallowed": 2
+  },
+  "http_requests_this_run": 1,
+  "robots_policy": "enforce",
+  "robots_decisions_this_run": {
+    "robots_disallowed": 2
+  },
+  "documents_total": 0,
+  "document_quality_totals": {},
+  "queued_total": 2,
+  "pending_total": 2
+}

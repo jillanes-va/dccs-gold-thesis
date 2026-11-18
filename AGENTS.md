@@ -62,7 +62,7 @@ Preservar, cuando existan: URL canónica, identificador, título, texto, idioma,
 
 La misión del agente es **explorar activamente rutas técnicas viables**, no abandonar una fuente ante el primer obstáculo. Puede estudiar documentación, feeds, sitemaps, endpoints públicos, peticiones de red, navegadores automatizados, APIs, datasets históricos, archivos web y bibliotecas de extracción; comparar enfoques y preparar pilotos reproducibles.
 
-Separar **investigar/proponer** de **ejecutar**. Antes de métodos nuevos que impliquen restricciones de acceso, costos, riesgos contractuales, impacto operativo, credenciales o volumen importante, explicar mecanismo, ventajas, límites y consecuencias, y solicitar aprobación explícita. La aprobación del investigador no reemplaza permisos exigidos por terceros: no acceder sin autorización a recursos privados, no eludir autenticación o paywalls ni interferir con mecanismos de seguridad.
+Separar **investigar/proponer** de **ejecutar**. Antes de métodos nuevos que impliquen restricciones de acceso, costos, riesgos contractuales, impacto operativo, credenciales o volumen importante, explicar mecanismo, ventajas, límites y consecuencias, y solicitar aprobación explícita.
 
 En las pruebas autorizadas:
 - Registrar solicitudes exitosas y fallidas, redirecciones, códigos HTTP, timestamps y razones de exclusión.

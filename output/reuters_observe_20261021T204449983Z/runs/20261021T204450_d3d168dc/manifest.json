@@ -1,0 +1,57 @@
+{
+  "run_id": "20261021T204450_d3d168dc",
+  "started_at_utc": "2026-10-21T20:44:50.557645+00:00",
+  "configuration": {
+    "schema_version": "1.1",
+    "code_sha256": "0bfbd0f39c66130d06c242bc3d85ba132582c9abafdf2057dfe468a6c356c799",
+    "start": "2026-01-01",
+    "end": "2026-10-15",
+    "min_words": 100,
+    "robots_policy": "observe",
+    "inputs": [
+      {
+        "kind": "discovery",
+        "url": "https://www.reuters.com/business/",
+        "discovered_from": "seed",
+        "done": false
+      },
+      {
+        "kind": "discovery",
+        "url": "https://www.reuters.com/markets/",
+        "discovered_from": "seed",
+        "done": false
+      }
+    ]
+  },
+  "execution": {
+    "url": "[]",
+    "urls_file": "None",
+    "seed": "[]",
+    "sitemap": "[]",
+    "html": "[]",
+    "output": "output\\reuters_observe_20261021T204449983Z",
+    "start": "2026-01-01",
+    "end": "2026-10-15",
+    "min_words": "100",
+    "max_articles": "3",
+    "max_pages": "2",
+    "max_requests": "8",
+    "delay": "3",
+    "timeout": "20",
+    "retries": "0",
+    "tls_trust": "system",
+    "robots_policy": "observe"
+  },
+  "python": "3.11.15 (main, Jun 23 2026, 15:20:37) [MSC v.1944 64 bit (AMD64)]",
+  "code_sha256": "0bfbd0f39c66130d06c242bc3d85ba132582c9abafdf2057dfe468a6c356c799",
+  "user_agent": "AcademicReutersExtraction/1.0 (+research; contact: j.illanesv@udd.cl)",
+  "dependencies": {
+    "requests": "2.34.2",
+    "beautifulsoup4": "4.15.0",
+    "trafilatura": "2.3.1",
+    "python-dateutil": "2.9.0.post0",
+    "truststore": "0.10.4"
+  },
+  "finished_at_utc": "2026-10-21T20:44:56.806124+00:00",
+  "http_requests": 3
+}
